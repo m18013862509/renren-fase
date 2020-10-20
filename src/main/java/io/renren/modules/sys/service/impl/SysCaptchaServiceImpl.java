@@ -31,6 +31,9 @@ import java.util.Date;
  */
 @Service("sysCaptchaService")
 public class SysCaptchaServiceImpl extends ServiceImpl<SysCaptchaDao, SysCaptchaEntity> implements SysCaptchaService {
+    /**
+     * 生成二维码文字
+     */
     @Autowired
     private Producer producer;
 

@@ -10,8 +10,7 @@ package io.renren.common.exception;
 
 /**
  * 自定义异常
- *
- * @author Mark sunlightcs@gmail.com
+ * @author m18013862509@163.com
  */
 public class RRException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
